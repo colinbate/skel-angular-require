@@ -2,17 +2,18 @@
     "name": "{%= name %}",
     "version": "{%= version %}",
     "main": "dist/{%= name %}.min.js",
-    "ignore":[
+    "ignore": [
         "analytics",
         "node_modules",
         "vendor",
         "test",
         "docs"
     ],
-    "dependencies":{},
-    "devDependencies":{
-        "angular":"~1.0.8",
-        "angular-bootstrap":"~0.6.0",
-        "angular-mocks":"~1.0.8"
+    "dependencies": {},
+    "devDependencies": {
+        "angular": "~1.2.12",
+        "angular-mocks": "~1.2.12",
+        "requirejs": "~2.1.10",
+        "normalize-css": "~2.1.3"
     }
 }
