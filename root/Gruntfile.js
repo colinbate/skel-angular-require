@@ -166,12 +166,12 @@ module.exports = function(grunt){
       "maps":{
         "files":[
           {
-            "cwd": "src/html/",
+            "cwd": "src/",
             "expand": true,
             'src':[
               'index.html',
-              'partials/**/*.*',
-              'directives/**/*.*'
+              'html/partials/**/*.*',
+              'html/directives/**/*.*'
             ],
             "dest": "dist/",
             "filter": "isFile"
