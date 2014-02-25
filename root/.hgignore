@@ -1,0 +1,9 @@
+syntax: glob
+.idea
+node_modules
+vendor
+docs
+analytics
+src/css
+src/lib
+dist
