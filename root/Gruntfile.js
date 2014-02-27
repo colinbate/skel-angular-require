@@ -138,13 +138,12 @@ module.exports = function(grunt){
             max_line_length: 200
           },
           modules: [
-            // {
-            //   name: 'angular',
-            //   include: ['ngstorage', 'ngdialog']
-            // },
+            {
+              name: 'vendor'
+            },
             {
               name: 'main',
-              //exclude: ['angular']
+              exclude: ['vendor']
             }
           ]
         }

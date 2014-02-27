@@ -13,7 +13,7 @@ angular.module("{%= sterileName %}")
 
             definition.restrict = "E";
             definition.transclude = true;
-            definition.templateUrl = "directives/demoDirective.html";
+            definition.templateUrl = "html/directives/demoDirective.html";
             definition.link = function(scope,element,attr){};
 
             return definition;
