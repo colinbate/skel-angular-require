@@ -1,4 +1,3 @@
 {
-    "src/js/name.js":"src/js/{%= sterileName %}.js",
-    "test/name.spec.js":"test/{%= sterileName %}.spec.js"
+    
 }
