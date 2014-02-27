@@ -121,6 +121,7 @@ module.exports = function(grunt){
           'require.js':  'requirejs/require.js',
           'angular.js':  'angular/angular.js',
           'angular-mocks.js' : 'angular-mocks/angular-mocks.js',
+          'angular-route.js' : 'angular-route/angular-route.js',
           'normalize.css':  'normalize-css/normalize.css'
         }
       }
