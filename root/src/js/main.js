@@ -7,7 +7,8 @@
             'angular'         : '../lib/angular'
         },
         shim: {
-            'angular'         : { exports: 'angular' }
+            'angular'           : { exports: 'angular' },
+            'lib/angular-route' : ['angular']
         },
         waitSeconds: 15
     });

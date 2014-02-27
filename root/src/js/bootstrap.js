@@ -1,4 +1,4 @@
-define(['angular', 'config'], function (angular, config) {
+define(['angular', 'config', 'lib/angular-route'], function (angular, config) {
   'use strict';
   var appName = '{%= sterileName %}',
       log = function () {
@@ -12,7 +12,7 @@ define(['angular', 'config'], function (angular, config) {
     initialize: function () {
       var app;
       log('Loading app: {%= sterileName %}');
-      app = angular.module(appName, []);
+      app = angular.module(appName, ['ngRoute']);
       app.config(config);
       angular.bootstrap(document, [appName]);
     }

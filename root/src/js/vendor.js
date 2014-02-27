@@ -1,3 +1,4 @@
 define([
-  'angular'
+  'angular',
+  'lib/angular-route'
 ], function () {});
