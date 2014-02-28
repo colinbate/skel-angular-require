@@ -1,12 +1,10 @@
-angular.module("{%= sterileName %}")
-    .controller('demoControllerRoot',[
-        '$scope',
-        function($scope){
-            var publicMembers = $scope,
-                privateMembers = {};
+define([], function () {
+  'use strict';
+  var demoControllerRoot = function ($scope) {
+    $scope.rows = 10;
+  };
 
-
-            publicMembers.rows = 10;
-
-            return publicMembers;
-        }]);
+  demoControllerRoot.ctrlName = 'DemoControllerRoot';
+  demoControllerRoot.$inject = ['$scope'];
+  return demoControllerRoot;
+});

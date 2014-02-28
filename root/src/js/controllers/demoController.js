@@ -1,14 +1,12 @@
-angular.module("{%= sterileName %}")
-    .controller('demoController',[
-                '$scope',
-        function($scope){
-            var publicMembers = $scope,
-                privateMembers = {};
+define([], function () {
+  'use strict';
+  var demoController = function ($scope) {
 
-
-            publicMembers.hello = function(){
-                return 'world';
-            };
-
-            return publicMembers;
-    }]);
+    $scope.hello = function () {
+        return 'world';
+    };
+  };
+  demoController.ctrlName = 'DemoController';
+  demoController.$inject = ['$scope'];
+  return demoController;
+});
