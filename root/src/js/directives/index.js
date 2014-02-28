@@ -1,5 +1,5 @@
 define([
-    'directives/demoDirectives'
+    'directives/demoDirective'
   ],
   function () {
     'use strict';
