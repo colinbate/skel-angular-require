@@ -6,13 +6,15 @@
         <link rel="stylesheet" href="css/core.css"/>
     </head>
     <body>
-        <h1>{%= name %}</h1>
-        <div ng-controller="demoControllerRoot">
-            <ul>
-                <li ng-repeat = "(key,val) in rows">List item {{key}}</li>
-            </ul>
+        <div class="container">
+            <h1>{%= name %}</h1>
+            <div ng-controller="demoControllerRoot">
+                <ul class="ng-cloak">
+                    <li ng-repeat = "(key,val) in rows">List item {{key}}</li>
+                </ul>
+            </div>
+            <div ng-view></div>
         </div>
-        <div ng-view></div>
         <script src="lib/require.js" data-main="js/main"></script>
     </body>
 </html>
