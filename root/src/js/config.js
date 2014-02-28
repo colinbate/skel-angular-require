@@ -3,7 +3,7 @@ define([], function () {
   return ['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/', {
       templateUrl: 'html/partials/demoPartial.html',
-      controller: 'demoController'
+      controller: 'DemoController'
     }).otherwise({
       redirectTo: '/'
     });
